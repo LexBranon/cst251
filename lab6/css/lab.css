@@ -9,11 +9,12 @@ div#content {
     padding: 50px;
     background-color: #9CA098;
     border: none;
-    height: 80vh;
+    height: 85vh;
 }
 
 h1 {
-  color: #D1B5B3;
+  color: white;
+  font-family: impact;
 }
 
 h2, h3 {
