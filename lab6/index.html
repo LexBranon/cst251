@@ -17,15 +17,26 @@
 			<h2> Forms </h2>
 				<form action="https://google.com/search" method="GET" target="_blank">
 				  Your full name: <input type="text" name="q"/>
-					<br></br>
-					Social Security Number: <input type="text" name="q"/>
-					<br></br>
+				<br></br>
+					Social Security Number:<input type="password" name="ssn"/>
+				 <br></br>
 					Last 4 digits of your credit card: <input type="text" name="q"/>
-					<br></br>
+				<br></br>
+				  <p> Which checkbox feels right to you? </p>
+					<input type="checkbox" name="feels-right"/> Square
+					<input type="radio" name="animal" value="cats"> Circle
+				<br></br>
 				  Home Address: <input type="text" name="q"/>
-					<br></br>
+				<br></br>
 					First childhood pet name: <input type="text" name="q"/>
-					<br></br>
+				<br></br>
+					<select name="security">
+				    <!-- <option disabled selected>Please Select</option> -->
+				    <option value="pet">First childhood pet name.</option>
+				    <option value="mom">Mother's maiden name.</option>
+				    <option value="meme">Favorite meme.</option>
+				  </select>
+					<input type="submit" value="Search">
 				</form>
 			<br> </br>
 						<a href="https://lexbranon.github.io/cst251/"">Return to Homepage</a>
