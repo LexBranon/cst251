@@ -1,13 +1,13 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: darkgray;
+    background-color:  #F8F2DA;
     padding: 25px;
     font-size: 120%;
 }
 
 div#content {
     padding: 50px;
-    background-color: lightgray;
+    background-color: #BCB88A;
     border: solid 1px #333333;
     height: 80vh;
 }
@@ -20,11 +20,12 @@ img {
     float: right;
     width: 400px;
     height: auto;
+    padding-left: 20px;
 }
 
 a {
     text-decoration: none;
-    color: maroon;
+    color: #BCB88A;
 }
 a:hover {
     text-decoration: underline;
