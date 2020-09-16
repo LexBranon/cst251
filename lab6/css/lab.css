@@ -8,8 +8,9 @@ body {
 div#content {
     padding: 50px;
     background-color: #F8F2DA;
-    border: solid 1px #333333;
+    border: none;
     height: 80vh;
+    padding-bottom: 15px;
 }
 
 h1, h2, h3 {
@@ -24,7 +25,7 @@ img {
 
 a {
     text-decoration: none;
-    color: #BCB88A;
+    color: black;
 }
 a:hover {
     text-decoration: underline;
