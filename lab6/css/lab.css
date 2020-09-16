@@ -10,10 +10,13 @@ div#content {
     background-color: #9CA098;
     border: none;
     height: 80vh;
-    padding-bottom: 15px;
 }
 
-h1, h2, h3 {
+h1 {
+  color: #D1B5B3;
+}
+
+h2, h3 {
     font-family: "Georgia", monospace;
     color: #9C31AA;
 }
