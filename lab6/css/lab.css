@@ -20,12 +20,11 @@ img {
     float: right;
     width: 400px;
     height: auto;
-    padding-left: 20px;
 }
 
 a {
     text-decoration: none;
-    color: #BCB88A;
+    color: green;
 }
 a:hover {
     text-decoration: underline;
