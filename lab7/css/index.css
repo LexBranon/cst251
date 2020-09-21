@@ -13,7 +13,7 @@ div#content {
 }
 
 h1 {
-  color: #929072;
+  color: green;
   font-family: Georgia;
   text-align: center;
 }
@@ -30,7 +30,7 @@ img {
 
 a {
     text-decoration: none;
-    color: #3A3A43;
+    color: #929072;
 }
 a:hover {
     text-decoration: underline;
