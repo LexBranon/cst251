@@ -8,7 +8,6 @@ body {
 div#content {
     padding: 50px;
     background-color: white;
-    border: none;
     height: 85vh;
 }
 
@@ -28,11 +27,16 @@ img {
     height: auto;
 }
 
+div#button {
+  background-color: #929072;
+  color: white;
+  font-family: Georgia;
+}
+
 a {
     text-decoration: none;
     color: #3A3A43;
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
 }
