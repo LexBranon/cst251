@@ -9,13 +9,13 @@ div#content {
     padding: 50px;
     background-color: white;
     border: none;
-    height:100vh;
+    height: 80vh;
     width: 60vh;
 }
 
 h1 {
   color: #929072;
-  font-family: Bookman;
+  font-family: "Bookman";
   text-align: center;
 }
 
@@ -24,6 +24,11 @@ h2, h3 {
     color: #929072;
 }
 
+div#content {
+  padding: 50px;
+  background-color:#929072;
+}
+ 
 img {
     width: 400px;
     height: auto;
