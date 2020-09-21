@@ -9,17 +9,17 @@ div#content {
     padding: 50px;
     background-color: white;
     border: none;
-    height: 500px;
+    height: 200px;
 }
 
 h1 {
   color: #929072;
-  font-family: "Bookman";
+  font-family: "Tahoma";
   text-align: center;
 }
 
 h2, h3 {
-    font-family: "Bookman", monospace;
+    font-family: "Tahoma", monospace;
     color: #929072;
 }
 
@@ -35,7 +35,7 @@ img {
 
 a {
     text-decoration: none;
-    color: #929072;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
