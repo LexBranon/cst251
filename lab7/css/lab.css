@@ -2,15 +2,14 @@ body {
     font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: #fbf3e3;
     padding: 25px;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 div#content {
     padding: 50px;
     background-color: white;
     border: none;
-    height: 80vh;
-    width: 60vh;
+    height: 40vh;
 }
 
 h1 {
