@@ -1,20 +1,21 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color:  #3A3A43;
+    background-color: #fbf3e3;
     padding: 25px;
     font-size: 120%;
 }
 
 div#content {
     padding: 50px;
-    background-color: #9CA098;
+    background-color: white;
     border: none;
     height: 85vh;
 }
 
 h1 {
-  color: white;
+  color: #929072;
   font-family: Georgia;
+  text-align: center;
 }
 
 h2, h3 {
