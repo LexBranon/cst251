@@ -28,7 +28,7 @@ div#content {
   padding: 50px;
   background-color:#929072;
 }
- 
+
 img {
     width: 400px;
     height: auto;
@@ -40,4 +40,15 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+div#button {
+  background-color: #fbf3e3;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
