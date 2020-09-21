@@ -9,18 +9,19 @@ div#content {
     padding: 50px;
     background-color: white;
     border: none;
-    height: 85vh;
+    height:100vh;
+    width: 60vh;
 }
 
 h1 {
-  color: green;
-  font-family: Georgia;
+  color: #929072;
+  font-family: Bookman;
   text-align: center;
 }
 
 h2, h3 {
-    font-family: "Georgia", monospace;
-    color: #9C31AA;
+    font-family: "Bookman", monospace;
+    color: #929072;
 }
 
 img {
