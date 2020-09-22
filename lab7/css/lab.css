@@ -10,6 +10,7 @@ div#content {
     background-color: #EDB9A7;
     border: none;
     height: 200px;
+    color: #fbf3e3;
 }
 
 h1 {
@@ -26,6 +27,7 @@ h2, h3 {
 div#image {
   padding: 50px;
   background-color:#929072;
+  align: center;
 }
 
 img {
