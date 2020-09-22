@@ -14,12 +14,12 @@ div#content {
 
 h1 {
   color: #929072;
-  font-family: "Tahoma";
+  font-family: "Georgia";
   text-align: center;
 }
 
 h2, h3 {
-    font-family: "Tahoma", monospace;
+    font-family: "Georgia", monospace;
     color: #929072;
 }
 
