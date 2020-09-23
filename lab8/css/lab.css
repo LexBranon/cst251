@@ -24,9 +24,15 @@ h2, h3 {
     color: #929072;
 }
 
+div#header-image {
+  width: 700px;
+  background-color:;
+  align: center;
+}
+
 div#image {
   padding: 50px;
-  background-color:#929072;
+  background-color:;
   align: center;
 }
 
