@@ -25,6 +25,8 @@ h2, h3 {
 }
 
 div#header-image {
+  width: 650px;
+  height: auto;
   background-color:;
   text-align: center;
 }
