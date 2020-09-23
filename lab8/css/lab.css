@@ -7,14 +7,14 @@ body {
 
 div#content {
     padding: 50px;
-    background-color: #EDB9A7;
+    background-color: #BCA289;
     border: none;
     height: 200px;
     color: #fbf3e3;
 }
 
 h1 {
-  color: #929072;
+  color: #AD7B3A;
   font-family: "Georgia";
   text-align: center;
 }
@@ -43,7 +43,7 @@ a:hover {
     text-decoration: underline;
 }
 div#button {
-  background-color: #929072;
+  background-color: #D4DEE3;
   color: white;
   border: none;
   padding: 15px 32px;
