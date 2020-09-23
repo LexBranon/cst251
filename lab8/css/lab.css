@@ -32,13 +32,10 @@ div#header-image {
 
 div#image {
   padding: 50px;
-  background-color:;
+  background-color: #AD7B3A;
   align: center;
-}
-
-img {
-    width: 400px;
-    height: auto;
+  width: 400px;
+  height: auto;
 }
 
 a {
