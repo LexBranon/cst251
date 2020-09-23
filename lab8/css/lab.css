@@ -24,6 +24,10 @@ h2, h3 {
     color: #929072;
 }
 
+img {
+  width: 650px;
+}
+
 div#header-image {
   width: 650px;
   height: auto;
