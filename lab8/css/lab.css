@@ -28,11 +28,8 @@ h2, h3 {
     color: #D4DEE3;
 }
 
-img {
-  width: 650px;
-}
 
-div#header-image {
+div img#header-image {
   width: 700px;
   height: auto;
   background-color:;
@@ -42,7 +39,7 @@ div#header-image {
   margin-right: auto;
 }
 
-div#image {
+div img #image {
   padding: 50px;
   background-color: #AD7B3A;
   align: center;
