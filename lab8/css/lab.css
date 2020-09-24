@@ -12,6 +12,9 @@ div#content {
     height: 200px;
     color: #fbf3e3;
     width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
