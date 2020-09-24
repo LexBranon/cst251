@@ -29,7 +29,7 @@ h2, h3 {
 }
 
 
-div img#header-image {
+div #header-image {
   width: 700px;
   height: auto;
   background-color:;
@@ -39,7 +39,11 @@ div img#header-image {
   margin-right: auto;
 }
 
-div img #image {
+img{
+  width:700px;
+}
+
+div #image {
   padding: 50px;
   background-color: #AD7B3A;
   align: center;
