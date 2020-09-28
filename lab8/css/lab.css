@@ -11,7 +11,7 @@ div#content {
     border: none;
     height: 500px;
     color: #fbf3e3;
-    width: 480px;
+    width: 470px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,6 +45,7 @@ div.header-image {
 div.image {
   padding: 50px;
   background-color: #AD7B3A;
+  width: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
