@@ -29,7 +29,7 @@ h2, h3 {
 }
 
 
-div #header-image {
+div.header-image {
   width: 800px;
   height: auto;
   background-color:;
