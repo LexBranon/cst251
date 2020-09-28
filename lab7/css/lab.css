@@ -26,6 +26,7 @@ h2, h3 {
 
 div#image {
   padding: 50px;
+    width: 650px;
   background-color:#929072;
   align: center;
 }
