@@ -26,13 +26,13 @@ h2, h3 {
 
 div#image {
   padding: 50px;
-    width: 100px;
   background-color:#929072;
   align: center;
 }
 
 img {
-    width: 300px;
+    width: 400px;
+    height: auto;
 }
 
 a {
