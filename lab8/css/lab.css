@@ -29,6 +29,10 @@ h2, h3 {
 }
 
 
+img {
+  width: 50%;
+}
+
 div.header-image {
   width: 800px;
   height: auto;
