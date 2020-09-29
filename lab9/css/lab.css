@@ -17,6 +17,42 @@ div#content {
     margin-right: auto;
 }
 
+div.challenge {
+    padding: 50px;
+    background-color: #BCA289;
+    border: none;
+    height: 500px;
+    color: white;
+    width: 470px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.problem {
+    padding: 50px;
+    background-color: #BCA289;
+    border: none;
+    height: 500px;
+    color: white;
+    width: 470px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.results {
+    padding: 50px;
+    background-color: #BCA289;
+    border: none;
+    height: 500px;
+    color: white;
+    width: 470px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
   color: #AD7B3A;
   font-family: "Georgia";
@@ -34,15 +70,30 @@ img {
 }
 
 div.header-image {
-  width: 800px;
-  background-color:;
-  text-align: center;
+  width:inherit;
+}
+
+div.image1 {
+  padding: 50px;
+  background-color: #AD7B3A;
+  width: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  align: center;
 }
 
-div.image {
+div.image2 {
+  padding: 50px;
+  background-color: #AD7B3A;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align: center;
+}
+
+div.image3 {
   padding: 50px;
   background-color: #AD7B3A;
   width: 500px;
