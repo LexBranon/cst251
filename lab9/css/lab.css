@@ -9,48 +9,50 @@ div#content {
     padding: 50px;
     background-color: #BCA289;
     border: none;
-    height: 500px;
+    height: 1000px;
     color: white;
-    width: 80%;
+    width: 1250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+div.header-image {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 1910px;
+}
+
+div.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 div.challenge {
-    padding: 50px;
-    background-color: #BCA289;
-    border: none;
-    height: 500px;
-    color: white;
-    width: 470px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 200px;
+
 }
 
 div.problem {
-    padding: 50px;
-    background-color: #BCA289;
-    border: none;
-    height: 500px;
-    color: white;
-    width: 470px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 200px;
+  margin-top: 150px;
 }
 
 div.results {
-    padding: 50px;
-    background-color: #BCA289;
-    border: none;
-    height: 500px;
-    color: white;
-    width: 470px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 200px;
+  margin-top: 150px;
 }
 
 h1 {
@@ -62,30 +64,34 @@ h1 {
 h2, h3 {
     font-family: "Georgia", monospace;
     color: #D4DEE3;
+    text-shadow: 2px 2px 	#785a2c;
 }
 
 
 img {
   width: 70%;
+  border-style: solid;
+  border-width: 9px;
+  border-color: #AD7B3A;
 }
 
-div.header-image {
-  width:inherit;
-}
 
 div.image1 {
   padding: 50px;
   width: 500px;
+  float: right;
 }
 
 div.image2 {
   padding: 50px;
   width: 500px;
+  float: left;
 }
 
 div.image3 {
   padding: 50px;
   width: 500px;
+  float: right;
 }
 
 
@@ -96,20 +102,26 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #AD7B3A;
 }
 
 div#button {
   background-color: #AD7B3A;
   color: #D4DEE3;
   border: none;
-  padding: 15px 32px;
+  padding: 20px;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
   align: center;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 0px 10px 5px 10px;
   cursor: pointer;
   font-family: Georgia;
+}
+
+#button:hover {
+  background-color: #D4DEE3;
+  color: #AD7B3A;
 }
