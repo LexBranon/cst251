@@ -75,33 +75,19 @@ div.header-image {
 
 div.image1 {
   padding: 50px;
-  background-color: #AD7B3A;
   width: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  align: center;
 }
 
 div.image2 {
   padding: 50px;
-  background-color: #AD7B3A;
   width: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  align: center;
 }
 
 div.image3 {
   padding: 50px;
-  background-color: #AD7B3A;
   width: 500px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  align: center;
 }
+
 
 a {
     text-decoration: none;
