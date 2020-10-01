@@ -5,6 +5,7 @@ body {
     background-color: #fbf3e3;
     padding: 25px;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 div#content {
@@ -99,6 +100,7 @@ div#button {
   margin: 0px 10px 5px 10px;
   cursor: pointer;
   font-family: 'DM Serif Text', serif;
+  text-transform: uppercase;
 }
 
 #button:hover {
