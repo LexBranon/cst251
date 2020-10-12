@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat&display=swap');
 iframe#fake {
-  width:800px
-  height:350px;
-  resize: both;
+    width: 800px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
 }
+
 
 body {
     font-family: 'Montserrat', sans-serif;
