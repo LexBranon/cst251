@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat&display=swap');
+iframe#fake {
+  width:800px
+  height:350px;
+  resize: both;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fbf3e3;
@@ -26,9 +32,7 @@ h2, h3 {
 }
 
 img {
-  width: 150px;
-  display: block;
-  width: 90%;
+  width: 800px;
 }
 
 a{
@@ -121,16 +125,3 @@ nav {
 .links a.active {
   background-color: #4CAF50;
   color: white;
-
-iframe#fake{
-  width: 800px;
-  height: 500px;
-  resize: both;
-  overflow: hidden;
-}
-iframe#fake{
-  width:800px;
-  height: 500px;
-  resize:both;
-  overflow: hidden;
-}
