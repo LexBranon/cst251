@@ -35,7 +35,6 @@ div#caption {
   text-align: right;
   left:600px;
   top: 410px;
-
 }
 
 div#invite p {
@@ -59,7 +58,7 @@ div#light-sage {
   width: 630px;
   height: 600px;
   right: 250px;
-  z-index: -110;
+  z-index: -250;
 }
 
 div#dark-sage {
@@ -68,7 +67,7 @@ div#dark-sage {
   width: 630px;
   height: 350px;
   right: 250px;
-  z-index: -100;
+  z-index: -200;
 }
 
 div#date {
@@ -87,7 +86,7 @@ div#fire img {
  height: 600px;
  width: 600px;
  margin:0;
- z-index:-150;
+ z-index:-350;
 }
 
 div#moab img {
