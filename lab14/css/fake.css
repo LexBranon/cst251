@@ -56,7 +56,7 @@ div#invite p {
 div#light-sage {
   position:absolute;
   background-color: #d8d8da;
-  width: 600px;
+  width: 630px;
   height: 600px;
   right: 250px;
   z-index: -110;
@@ -65,7 +65,7 @@ div#light-sage {
 div#dark-sage {
   position:absolute;
   background-color:	#c1c2ba;
-  width: 600px;
+  width: 630px;
   height: 350px;
   right: 250px;
   z-index: -100;
