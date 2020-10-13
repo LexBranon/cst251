@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&family=Open+Sans&display=swap');
 h1 {
   font-family:'Nunito Sans', sans-serif;
   color: white;
@@ -6,19 +6,21 @@ h1 {
   font-weight: bolder;
   text-transform: uppercase;
   letter-spacing: 150px;
+  left:100px;
+  top: 30px;
+  position: absolute;
+  margin: 0px;
 }
 
 
 body {
   color:white;
-  background-color: pink;
   text-transform: uppercase;
 }
 
 div#heading {
-  position:absolute;
-  left:50px;
-  top: 0px;
+  width: 700px;
+  background-color: purple;
 }
 
 p {
@@ -32,7 +34,7 @@ div#caption {
   position:absolute;
   text-align: right;
   left:600px;
-  top: 510px;
+  top: 410px;
 
 }
 
@@ -44,10 +46,11 @@ div#invite p {
   font-size: 10px;
   z-index: 10px;
   width: 150px;
-  height:30px;
+  height:20px;
   color: #b0814a;
-  margin: auto;
+  margin:0px;
  text-align: center;
+ padding:5px;
 }
 
 div#light-sage {
@@ -63,18 +66,19 @@ div#dark-sage {
   position:absolute;
   background-color:	#c1c2ba;
   width: 600px;
-  height: 400px;
+  height: 350px;
   right: 250px;
   z-index: -100;
 }
 
-div#date p {
+div#date {
    position: absolute;
   z-index: 50px;
-  left: 650px;
-  background-color: blue;
+  left: 720px;
   text-align: right;
   width: 200px;
+  top: 65px;
+  line-height: 10px;
 }
 
 div#fire img {
@@ -88,18 +92,17 @@ div#fire img {
 
 div#moab img {
  position: absolute;
- left: 300px;
+ left: 350px;
  height:200px;
- top: 50px;
+ top: 75px;
  margin:0;
  z-index:-100;
-object-fit: contain;
 }
 
 div#group img {
  position: absolute;
  left:700px;
- top: 300px;
+ top: 200px;
  height: 200px;
  margin: 10px;
  z-index:-10px;
@@ -108,12 +111,25 @@ object-fit: contain;
 
 
 
-
-div#icon1 #icon2 #icon3 img{
+div#icon1 img{
   position: absolute;
-  z-index: 150;
-  width: 35px;
-  left: 900px;
-  top: 450px;
+   width: 200px;
+   left: 810px;
+   top:200px;
 
+}
+
+div#icon2 img{
+  position: absolute;
+   left:700px;
+   top:250px;
+ width: 300px;
+
+}
+
+div#icon3 img{
+  position: absolute;
+   left: 800px;
+   top:300px;
+ width: 200px;
 }
