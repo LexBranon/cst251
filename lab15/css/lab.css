@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fbf3e3;
+    padding: 25px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+  color: white;
+  font-family: 'DM Serif Text', serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2, h3 {
+    font-family: 'DM Serif Text', serif;
+    color: #AD7B3A;
+    font-size: 30px;
+}
+
+img {
+  max-width: 630px;
+  min-width: 400px;
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar img {
+  width:100px;
+  height:300px;
+  object-fit:cover;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.image1 {
+  filter: contrast(100%) brightness(100%);
+  transform: rotate(5deg);
+}
+
+.image2 {
+  filter: contrast(100%) brightness(120%) blur(.5px);
+  transform: rotate(-5deg);
+}
+
+.image3 {
+  filter: contrast(100%) brightness(100%);
+  transform: rotate(5deg);
+}
+
+a{
+  font-family: Georgia;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+li{
+  color: black;
+}
+
+a.hover {
+  text-decoration: underline;
+  color: #AD7B3A;
+}
+
+div#heading {
+  display: block;
+  background-color: #D4DEE3;
+  padding: 50px;
+  margin: 0px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+aside#sidebar {
+  background-color: white;
+  padding: 50px;
+  padding-top: 10px;
+  display: inline-block;
+  width: 30%;
+  min-width: 300px;
+  position: absolute;
+  right: 30px;
+  height: 1100px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(white, #D4DEE3); 
+}
+
+
+main#content {
+    background-color: white;
+    padding: 50px;
+    border: none;
+    color: #AD7B3A;
+    max-width: 730px;
+    min-width: 500px;
+    height: 1060px;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+div.challenge {
+  display: block;
+
+}
+
+div.problem {
+  display: block;
+}
+
+div.results {
+  display: block;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left:0;
+}
+
+.links {
+  background-color: #AD7B3A;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.links a {
+  font-family: 'DM Serif Text', serif;
+  color: white;
+  font-size: 30px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 0px;
+}
+
+
+.links a:hover {
+  background-color: white;
+  color: #AD7B3A;
+}
+
+
+.links a.active {
+  background-color: #4CAF50;
+  color: white;
