@@ -94,7 +94,7 @@ aside#sidebar {
   right: 30px;
   height: 1100px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(white, #D4DEE3); 
+  background-image: linear-gradient( #D4DEE3, white); 
 }
 
 
