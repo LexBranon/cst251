@@ -13,14 +13,18 @@ p {
 }
 
 h1 {
-  color: white;
   font-family: 'DM Serif Text', serif;
-  color: #AD7B3A;
   text-align: center;
   font-size: 60px;
-  z-index: 100px;
-  padding: 100px;
-  padding-left: 150px;
+  color:  #AD7B3A;
+  animation-name: title;
+  animation-duration: 4s;
+}
+
+@keyframes title {
+  from {color: #AD7B3A;}
+  to {color: white;}
+
 }
 
 h2, h3 {
@@ -30,39 +34,10 @@ h2, h3 {
 }
 
 img {
-  width: 100%;
-  position: fixed;
-    top: 0;
-    left: 0;
-  z-index: 10px;
 }
 
-#sidebar img {
-  width:100px;
-  height:300px;
-  object-fit:cover;
-  border-radius: 20px;
-  margin-top: 50px;
-  margin-left: 20px;
-}
 
-.image1 {
-  position: fixed;
-    top: 0;
-    left: 0;
-}
 
-.image2 {
-  position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.image3 {
-  position: fixed;
-      top: 0;
-      left: 0;
-}
 
 a{
   font-family: Georgia;
@@ -81,25 +56,28 @@ a.hover {
 }
 
 div#heading {
-  padding: 100px;
+  display: block;
+  background-color: #D4DEE3;
+  padding: 50px;
   margin: 0px;
-  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-  height:500px;
-  width: 1080px;
+
 }
 
-aside#sidebar {
-  background-color: white;
-  padding: 50px;
-  padding-top: 10px;
+
+
+div#yosemite img {
+  width: 690px;
+  align: center;
+  padding: 0px;
+  margin: auto;
   display: inline-block;
-  width: 30%;
-  min-width: 300px;
   position: absolute;
-  right: 30px;
-  height: 1100px;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient( #D4DEE3, white);
+  left: 710px;
+}
+
+div#yosemite2 img {
+  width: 200px;
+
 }
 
 
@@ -108,13 +86,11 @@ main#content {
     padding: 50px;
     border: none;
     color: #AD7B3A;
-    max-width: 730px;
-    min-width: 500px;
-    height: 1060px;
+    width: 550px;
+    height: 1040px;
     position: absolute;
     display: inline-block;
     margin-bottom: 100px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -129,6 +105,63 @@ div.problem {
 
 div.results {
   display: block;
+}
+
+div#learn1 {
+  width: 10px;
+  height: 10px;
+  background: #AD7B3A;
+  transition: width 2s, height 4s;
+ 	right: 400px;
+  display: inline-block;
+  position: absolute;
+  z-index: 100;
+  top: 550px;
+  overflow: hidden;
+}
+
+div#learn1:hover {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+
+div#learn2 {
+  width: 10px;
+  height: 10px;
+  background: #D4DEE3;
+  transition: width 2s, height 4s;
+ 	right: 370px;
+  display: inline-block;
+  position: absolute;
+  z-index: 100;
+  top: 1150px;
+  overflow: hidden;
+}
+
+div#learn2:hover {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+
+
+
+div#columns {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid #D4DEE3;
+  display: inline-block;
+  position: absolute;
+  width: 1310px;
+  background-image: url(../img/ohdeer.jpeg);
+  background-repeat: repeat;
+  padding: 30px;
+  height: 800px;
+  filter: brightness(110%);
+  top: 1510px;
+  z-index: 10px;
+
 }
 
 nav {
@@ -158,12 +191,15 @@ nav {
   text-decoration: none;
   font-size: 17px;
   margin-top: 0px;
+  width: 200px;
 }
 
 
 .links a:hover {
   background-color: white;
   color: #AD7B3A;
+  width: 400px;
+  transition: width 2s;
 }
 
 
