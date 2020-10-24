@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+body {
+    font-family: 'Reenie Beanie', cursive;
+    color: white;
+    padding: 300px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: 'Impact', sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2, h3 {
+    font-family: 'Impact', sans-serif;
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+    font-size: 30px;
+}
+
+img {
+  max-width: 630px;
+  min-width: 400px;
+  display: block;
+  width: 100%;
+}
+
+
+.thumbsup {
+  filter: contrast(100%) brightness(100%);
+  transform: rotate(5deg);
+  box-shadow: 10px 10px 10px yellow;
+}
+
+.richard {
+  filter: contrast(100%) brightness(120%) blur(.5px);
+  transform: rotate(-5deg);
+  box-shadow: 10px 10px 10px yellow;
+}
+
+.smile{
+  filter: contrast(100%) brightness(100%);
+  transform: rotate(180deg);
+  float: right;
+  box-shadow: 10px 10px 10px yellow;
+}
+
+.tomhanks{
+  filter: invert();
+  transform: rotate(5deg);
+  box-shadow: 10px 10px 10px yellow;
+}
+
+a{
+  font-family: Georgia;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+li{
+  color: black;
+}
+
+a.hover {
+  text-decoration: underline;
+  color: #AD7B3A;
+}
+
+div#heading {
+  padding: 30px;
+  margin: 0px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+div#heading img {
+  padding: 0px;
+  width: 100px;
+}
+
+
+main#content {
+    padding: 50px;
+    border: none;
+    color: #AD7B3A;
+    width: 725px;
+    height: 2000px;
+    position: absolute;
+    display: inline-block;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-image: url(../img/fail.gif);
+    background-repeat: repeat;
+
+}
+
+div.lorem {
+  display: block;
+
+}
+
+div.lorem-translate{
+  display: block;
+}
+
+div.thumbsup {
+
+}
+
+.links {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#buttons {
+  background-image: linear-gradient(red, blue, green);
+  width: 200px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  margin: 0px 10px 5px 10px;
+  cursor: pointer;
+  font-family: 'DM Serif Text', serif;
+  text-transform: uppercase;
+}
+
+
+.links a {
+  font-family: 'Impact', sans-serif;
+  color: white;
+  font-size: 30px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 0px;
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+
+.links a:hover {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  color: #AD7B3A;
+}
+
+
+.links a.active {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  color: white;
