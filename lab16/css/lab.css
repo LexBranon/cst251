@@ -25,7 +25,7 @@ h1 {
   from {color: #AD7B3A;}
   to {color: white;}
 
-}
+} ,?
 
 h2, h3 {
     font-family: 'DM Serif Text', serif;
@@ -55,7 +55,7 @@ a.hover {
   color: #AD7B3A;
 }
 
-div#heading {
+header#heading {
   display: block;
   background-color: #D4DEE3;
   padding: 50px;
@@ -162,6 +162,11 @@ div#columns {
   top: 1510px;
   z-index: 10px;
 
+}
+
+footer#contact {
+  color: black;
+  background color: black;
 }
 
 nav {
