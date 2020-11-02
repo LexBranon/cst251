@@ -70,10 +70,11 @@ div#heading {
 
 
 div#right-image img {
-    display: block;
-    width: 700px;
-    padding: 20px;
-    float: right;
+    display: inline-block;
+    position:absolute;
+    width: 800px;
+    padding: 50px;
+    right: 100px;
 }
 
 main#content {
