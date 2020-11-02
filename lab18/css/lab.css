@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat&display=swap');
+<meta name="viewport" content="width=device-width, initial-scale=1">
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 30px;
+
+}
+
+img {
+  max-width: 400px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fbf3e3;
+    padding: 25px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+p {
+    color: black;
+}
+
+h1 {
+  color: #AD7B3A;
+  font-family: 'DM Serif Text', serif;
+  text-align: center;
+  font-size: 60px;
+}
+
+h2, h3 {
+    font-family: 'DM Serif Text', serif;
+    color: #AD7B3A;
+    font-size: 30px;
+}
+
+
+
+a{
+  font-family: Georgia;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+li{
+  color: black;
+}
+
+a.hover {
+  text-decoration: underline;
+  color: #AD7B3A;
+}
+
+div#heading {
+  display: block;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+}
+
+
+div#right-image img {
+    display: block;
+    width: 700px;
+    padding: 20px;
+    float: right;
+}
+
+main#content {
+    background-color: white;
+    color: #AD7B3A;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 20px;
+    width: 700px;
+}
+
+div.challenge {
+  display: block;
+
+}
+
+div.problem {
+  display: block;
+}
+
+div.results {
+  display: block;
+}
+
+
+nav {
+  top: 0;
+  left:0;
+}
+
+.links {
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 5px solid #AD7B3A;
+  border-right: none;
+  border-left: none;
+  width: 100%;
+}
+
+
+.links a {
+  font-family: 'DM Serif Text', serif;
+  color: #AD7B3A;
+  font-size: 30px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 0px;
+}
+
+
+.links a:hover {
+  background-color: white;
+  color: #AD7B3A;
+}
+
+
+.links a.active {
+  background-color: #4CAF50;
+  color: black;
