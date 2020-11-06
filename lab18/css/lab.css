@@ -71,10 +71,9 @@ div#heading {
 
 div#right-image img {
     display: inline-block;
-    position:absolute;
-    width: 800px;
-    padding: 50px;
-    right: 100px;
+    width: 700px;
+    padding: 20px;
+    right: 500px;
 }
 
 main#content {
@@ -83,7 +82,7 @@ main#content {
     display: inline-block;
     margin-right: 10px;
     padding: 20px;
-    width: 700px;
+    width: 70%;
 }
 
 div.challenge {
