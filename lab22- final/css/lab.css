@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Courier+Prime&family=DM+Serif+Display&display=swap');;
+
+body {
+    font-family: 'Courier Prime', monospace;
+    background-color:	#eed3c7;
+    padding: 25px;
+    font-size: 20px;
+}
+
+p {
+    color: #754944;
+}
+
+h1 {
+  color: #626C36;
+  font-family:'DM Serif Display', serif;
+  text-align: left;
+  font-size: 100px;
+}
+
+h2{
+    font-family:'Caveat Brush', cursive;
+    color: #626C36;
+    font-size: 30px;
+}
+
+
+img {
+  max-width: 500px;
+  border-color: white;
+  border-style: solid;
+  border-width: medium;
+}
+
+a{
+  font-family: 'Caveat Brush', cursive;
+  background-color: #cbffae;
+}
+
+
+.links {
+  background-color:	#cbffae;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+
+.links a {
+  font-family: 'Caveat Brush', cursive;
+  color: #626C36;
+  font-size: 30px;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 0px;
+}
+
+
+.links a:hover {
+  background-color:	#cbffae;
+  color: #754944;
+  text-decoration: underline;
+}
+
+
+.links a.active {
+  background-color: #cbffae;
+  color: #754944;
+}
+
+div#heading {
+    display: block;
+    padding: 50px;
+  }
+
+  div#content {
+      background-color: #eed3c7;
+      position: absolute;
+      display: inline-block;
+      padding: 50px;
+  }
