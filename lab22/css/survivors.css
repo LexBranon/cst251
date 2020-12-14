@@ -104,22 +104,22 @@ div#image1 {
   text-align: center;
 }
 
-div#Lexi {
-  margin-top: 200px;
-  margin-bottom: 20px;
-}
-
-div#Julia {
+div.Lexi {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-div#Haley {
-  margin-top: 50px;
+div.Julia {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
-div#Raeann {
+div.Haley {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+div.Raeann {
   margin-top: 20px;
   margin-bottom: 20px;
 }

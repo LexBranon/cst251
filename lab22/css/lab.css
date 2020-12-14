@@ -94,6 +94,22 @@ div#image1 {
   float: right;
 }
 
+div.step1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.step2 {
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+
+div.step3{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
 div.footer {
   position: fixed;
   left: 0;
