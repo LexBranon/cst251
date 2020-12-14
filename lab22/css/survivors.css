@@ -27,11 +27,12 @@ h2{
 
 
 img {
-  max-width: 500px;
+  max-width: 300px;
   border-color: white;
   border-style: solid;
   border-width: medium;
-  right: 1000px;
+  float: right;
+  margin: 10px;
 }
 
 a{
@@ -101,4 +102,24 @@ div#image1 {
   background-color: #626C36;
   color: white;
   text-align: center;
+}
+
+div#Lexi {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+
+div#Julia {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div#Haley {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+div#Raeann {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
