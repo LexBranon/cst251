@@ -31,6 +31,7 @@ img {
   border-color: white;
   border-style: solid;
   border-width: medium;
+  right: 1000px;
 }
 
 a{
@@ -90,4 +91,14 @@ div#body {
 div#image1 {
   display: inline-block;
   float: right;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #626C36;
+  color: white;
+  text-align: center;
 }

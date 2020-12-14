@@ -93,3 +93,15 @@ div#image1 {
   display: inline-block;
   float: right;
 }
+
+div.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  width: inherit;
+  height: 20px;
+}
